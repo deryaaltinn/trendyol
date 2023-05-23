@@ -1,0 +1,141 @@
+img{
+    max-width: 100%;
+
+}
+a{
+    text-decoration: none;
+    
+}
+nav .bi-search{
+    position: absolute;
+    margin-right: 1rem;
+    color: orange;
+   
+}
+nav input{
+    height: 38px;
+    border-radius: 5px;
+    background-color: rgb(249, 249, 249);
+    border-color: rgb(237, 237, 237);
+}
+nav ul li{
+    margin-left: 20px;
+    list-style: none;
+}
+nav ul li a:hover{
+    color: orange;
+  
+}
+
+nav ul li a{
+    
+    color: black;
+}
+nav input{
+    width: 100%;
+}
+nav .nav-bottom ul li{
+    margin-left: 30px;
+   
+}
+nav .nav-bottom ul li:hover{
+    border-bottom: 2px solid orange;
+}
+.section-mobile{
+    display: none;
+}
+.section-content a img{
+    border-radius: 5px;
+}
+
+
+section-2 .section-2-content .owl-carousel .item a .img{
+    width: 20px;
+}
+section-2 .section-2-content .owl-dots{
+    display: none;
+}
+section-2 .section-2-content a{
+   
+    color: black;
+}
+section-2 .section-2-content a:hover{
+    color: orange;
+}
+
+section-3 .section-3-content button{
+width: 100%;
+border-radius: 5px;
+border: none;
+height: 60px;
+}
+section-3 .section-3-content #buton1{
+    background-color: rgb(220, 236, 220);
+    color: darkgreen;
+}
+section-3 .section-3-content #buton2{
+    background-color: rgb(243, 196, 177);
+    color:rgb(205, 68, 15) ;
+
+}
+section-3 .section-3-content #buton3{
+    background-color: rgb(248, 202, 210);
+    color: rgb(220, 4, 40);
+}
+section-4 .section-4-content button{
+    width: 100%;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 0 0 10px 10px;
+    height: 30px;
+    
+} 
+ section-4 .section-4-content img{
+border-radius: 10px 10px 0 0;
+margin-top: 1rem;
+} 
+
+section-4 .section-4-content button:hover{
+    background-color: rgb(203, 142, 28);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:750px){
+ .section-content{
+    display: none;
+ }
+ nav {
+    display: none;
+ }
+ .section-mobile{
+    display: block;
+ }
+
+ section-3 .section-3-content button{
+    margin-top: 1rem;
+ }
+
+
+
+
+
+}
